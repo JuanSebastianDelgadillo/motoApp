@@ -8,6 +8,6 @@ var carAppServices = angular.module('carAppServices', ['ngResource']); //<---- S
 carAppServices.factory('Car', ['$resource',
   function($resource){
     return $resource('cars/:carId.json', {}, {
-      query: {method:'GET', params:{carId:'cars'}, isArray:true}
+      query: {method:'GET', params:{carId:'motos'}, isArray:true}
     });
   }]);
