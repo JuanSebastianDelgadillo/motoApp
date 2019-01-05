@@ -2,7 +2,7 @@
 
 /* App Module */
 /* se crea el modulo del aplicativo*/
-var carApp = angular.module('carApp', [
+var carApp = angular.module('motoApp', [
 	'ngRoute',
   'carAppAnimations',
   'carAppControllers',
