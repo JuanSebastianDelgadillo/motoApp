@@ -13,7 +13,7 @@ carAppControllers.controller('MotoListCtrl', ['$scope', 'Mot',
 
 carAppControllers.controller('MotoDetailCtrl', ['$scope', '$routeParams', 'Mot',
   function($scope, $routeParams, Mot) {
-    $scope.car = Mot.get({carId: $routeParams.carId}, function(car) {
+    $scope.car = Mot.get({motoId: $routeParams.motoId}, function(car) {
       $scope.mainImageUrl = car.images[0];
     });
 

@@ -18,7 +18,7 @@ motoApp.config(['$routeProvider',
         templateUrl: 'partials/moto-list.html',
         controller: 'MotoListCtrl'
       }).
-      when('/cars/:carId', {
+      when('/cars/:motoId', {
         templateUrl: 'partials/moto-detail.html',
         controller: 'MotoDetailCtrl'
       }).

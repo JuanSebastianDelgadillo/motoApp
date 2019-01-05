@@ -5,7 +5,7 @@ var motoAppServices = angular.module('motoAppServices', ['ngResource']); //<----
 
 motoAppServices.factory('Mot', ['$resource',
   function($resource){
-    return $resource('motos/:carId.json', {}, {
-      query: {method:'GET', params:{carId:'motos'}, isArray:true}
+    return $resource('motos/:motoId.json', {}, {
+      query: {method:'GET', params:{motoId:'motos'}, isArray:true}
     });
   }]);
