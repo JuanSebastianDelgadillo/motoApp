@@ -1,6 +1,6 @@
 {
     "manufacter": {
-        "name": "NISSAN", 
+        "name": "CRB 250", 
         "country": "Japan"
     }, 
     "engine": {
@@ -8,15 +8,15 @@
         "transmission": "Manual", 
         "type": "Diesel"
     }, 
-    "description": "The Navara is all about freedom including freedom of choice.",  
-    "id": "navara", 
+    "description": "Desde las pistas a tu ciudad.",  
+    "id": "suzuki", 
     "images": [
         "img/cars/suzuki0.jpg",
         "img/cars/suzuki1.jpg",
         "img/cars/suzuki2.jpg",
         "img/cars/suzuki3.jpg"
     ], 
-    "name": "Navara", 
+    "name": "Suzuki CRB 250", 
     "sizeAndWeight": {
         "dimensions": [
             "1783.9 mm (w)", 

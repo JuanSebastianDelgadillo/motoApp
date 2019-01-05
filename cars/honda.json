@@ -1,0 +1,31 @@
+{
+    "manufacter": {
+        "name": "Honda", 
+        "country": "Corea"
+    }, 
+    "engine": {
+        "gears": "6", 
+        "transmission": "Manual", 
+        "type": "Petrol"
+    }, 
+    "description": "La nueva CB 190R llega con tecnología de estilo Naked-Sport, líneas curvas con marcados vértices atraviesan desde el foco triangular pasando por el muscular tanque hasta la cola.",  
+    "id": "honda", 
+    "images": [
+        "img/motos/honda0.jpg",
+        "img/motos/honda1.jpg",
+        "img/motos/honda2.jpg",
+        "img/motos/honda3.jpg"
+    ], 
+    "name": "Honda", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "1399.5 mm (w)", 
+            "1595.8 mm (h)", 
+            "4218.9 mm (l)"
+        ], 
+        "weight": "1211.0 Kg"
+    }, 
+    "space": {
+        "volume": "15.5L"
+    }
+}
