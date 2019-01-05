@@ -2,16 +2,16 @@
 
 /* App Module */
 /* se crea el modulo del aplicativo*/
-var carApp = angular.module('motoApp', [
+var motoApp = angular.module('motoApp', [
 	'ngRoute',
   'carAppAnimations',
   'carAppControllers',
-  'carAppServices' // se agrega el servicio creado en services.js
+  'carAppServices' 
 ]);
 
 
 //Se agrega la configuracion de rutas!!
-carApp.config(['$routeProvider',
+motoApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/cars', {
