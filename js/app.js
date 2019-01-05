@@ -15,12 +15,12 @@ carApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/cars', {
-        templateUrl: 'partials/car-list.html',
-        controller: 'CarListCtrl'
+        templateUrl: 'partials/moto-list.html',
+        controller: 'MotoListCtrl'
       }).
       when('/cars/:carId', {
-        templateUrl: 'partials/car-detail.html',
-        controller: 'CarDetailCtrl'
+        templateUrl: 'partials/moto-detail.html',
+        controller: 'MotoDetailCtrl'
       }).
       otherwise({
         redirectTo: '/cars'
