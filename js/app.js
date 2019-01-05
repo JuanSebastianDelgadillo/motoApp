@@ -5,7 +5,7 @@
 var motoApp = angular.module('motoApp', [
 	'ngRoute',
   'motoAppAnimations',
-  'carAppControllers',
+  'motoAppControllers',
   'motoAppServices' 
 ]);
 
