@@ -5,15 +5,15 @@
 var carAppControllers = angular.module('carAppControllers', []);
 
 
-carAppControllers.controller('MotoListCtrl', ['$scope', 'Car',
-  function($scope, Car) {
-    $scope.cars = Car.query();
+carAppControllers.controller('MotoListCtrl', ['$scope', 'Mot',
+  function($scope, Mot) {
+    $scope.cars = Mot.query();
     $scope.orderProp = 'model';
   }]);
 
-carAppControllers.controller('MotoDetailCtrl', ['$scope', '$routeParams', 'Car',
-  function($scope, $routeParams, Car) {
-    $scope.car = Car.get({carId: $routeParams.carId}, function(car) {
+carAppControllers.controller('MotoDetailCtrl', ['$scope', '$routeParams', 'Mot',
+  function($scope, $routeParams, Mot) {
+    $scope.car = Mot.get({carId: $routeParams.carId}, function(car) {
       $scope.mainImageUrl = car.images[0];
     });
 

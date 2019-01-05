@@ -1,11 +1,9 @@
 'use strict';
 
-/* Services */
-/* Se aplica el uso de servicios*/
 var motoAppServices = angular.module('motoAppServices', ['ngResource']); //<---- Se agrega ng-resoruce para poder usar la libreria interna de angular
 
-//Se declara el servicio Car! con una sola propiedad
-motoAppServices.factory('Car', ['$resource',
+
+motoAppServices.factory('Mot', ['$resource',
   function($resource){
     return $resource('motos/:carId.json', {}, {
       query: {method:'GET', params:{carId:'motos'}, isArray:true}
