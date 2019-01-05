@@ -1,6 +1,6 @@
-var carAppAnimations = angular.module('carAppAnimations', ['ngAnimate']);
+var motoAppAnimations = angular.module('motoAppAnimations', ['ngAnimate']);
 
-carAppAnimations.animation('.car', function() {
+motoAppAnimations.animation('.car', function() {
 
   var animateUp = function(element, className, done) {
     if(className != 'active') {
