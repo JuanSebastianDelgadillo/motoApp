@@ -11,10 +11,10 @@
     "description": "Desde las pistas a tu ciudad.",  
     "id": "suzuki", 
     "images": [
-        "img/cars/suzuki0.jpg",
-        "img/cars/suzuki1.jpg",
-        "img/cars/suzuki2.jpg",
-        "img/cars/suzuki3.jpg"
+        "img/motos/suzuki0.jpg",
+        "img/motos/suzuki1.jpg",
+        "img/motos/suzuki2.jpg",
+        "img/motos/suzuki3.jpg"
     ], 
     "name": "Suzuki CRB 250", 
     "sizeAndWeight": {

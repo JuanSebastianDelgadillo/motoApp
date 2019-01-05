@@ -164,7 +164,7 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
-.car-images {
+.moto-images {
   background-color: white;
   width: 450px;
   height: 450px;
@@ -173,12 +173,12 @@ h6, .h6 {
   float: left;
 }
 
-.cars {
+.motos {
   list-style: none;
 }
 
 
-img.car {
+img.moto {
   float: left;
   margin-right: 3em;
   margin-bottom: 2em;
@@ -189,30 +189,30 @@ img.car {
   display: none;
 }
 
-img.car:first-child {
+img.moto:first-child {
   display: block;
 }
 
 
-ul.car-thumbs {
+ul.moto-thumbs {
   margin: 0;
   list-style: none;
 }
 
-ul.car-thumbs li {
+ul.moto-thumbs li {
   border: 1px solid black;
   display: inline-block;
   margin: 1em;
   background-color: white;
 }
 
-ul.car-thumbs img {
+ul.moto-thumbs img {
   height: 100px;
   width: 100px;
   padding: 1em;
 }
 
-ul.car-thumbs img:hover {
+ul.moto-thumbs img:hover {
   cursor: pointer;
 }
 

@@ -11,10 +11,10 @@
     "description": "La YZF-R1 es el buque insignia de la gama súper deportiva de Yamaha, es la moto súper sport más avanzada que se ha construido.",  
     "id": "yamaha", 
     "images": [
-        "img/cars/yamaha0.jpg",
-        "img/cars/yamaha1.jpg",
-        "img/cars/yamaha2.jpg",
-        "img/cars/yamaha3.jpg"
+        "img/motos/yamaha0.jpg",
+        "img/motos/yamaha1.jpg",
+        "img/motos/yamaha2.jpg",
+        "img/motos/yamaha3.jpg"
     ], 
     "name": "Yamaha YZF-R1", 
     "sizeAndWeight": {

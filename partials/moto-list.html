@@ -8,12 +8,12 @@
     <div class="col-sm-7 blog-main">
       <!--Body content-->
 
-      <ul class="cars">
-        <li ng-repeat="car in cars | filter:query | orderBy:orderProp"
-            class="thumbnail car-listing">
-          <a href="#/cars/{{car.id}}" class="thumb"><img ng-src="{{car.imageUrl}}"></a>
-          <a href="#/cars/{{car.id}}">{{car.name}}</a>
-          <p>{{car.snippet}}</p>
+      <ul class="motos">
+        <li ng-repeat="moto in motos | filter:query | orderBy:orderProp"
+            class="thumbnail moto-listing">
+          <a href="#/motos/{{moto.id}}" class="thumb"><img ng-src="{{moto.imageUrl}}"></a>
+          <a href="#/motos/{{moto.id}}">{{moto.name}}</a>
+          <p>{{moto.snippet}}</p>
         </li>
       </ul>
 

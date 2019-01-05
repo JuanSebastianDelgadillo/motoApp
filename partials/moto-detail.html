@@ -1,22 +1,22 @@
 
 <div class="blog-header">
-  <h1 class="blog-title">{{car.name}}</h1>
-  <p class="lead blog-description">{{car.description}}</p>
+  <h1 class="blog-title">{{moto.name}}</h1>
+  <p class="lead blog-description">{{moto.description}}</p>
 </div>
 <div class="row">
 
   <div class="col-sm-7 blog-main">
-    <div class="car-images">
+    <div class="moto-images">
       <img ng-src="{{img}}"
-           class="car"
-           ng-repeat="img in car.images"
+           class="moto"
+           ng-repeat="img in moto.images"
            ng-class="{active: mainImageUrl==img}">
     </div>
   </div>
 
   <div class="col-sm-5 blog-sidebar">
-    <ul class="car-thumbs">
-      <li ng-repeat="img in car.images">
+    <ul class="moto-thumbs">
+      <li ng-repeat="img in moto.images">
         <img ng-src="{{img}}" ng-click="setImage(img)">
       </li>
     </ul>
@@ -29,36 +29,36 @@
     <span>Engine</span>
     <dl>
       <dt>Type</dt>
-      <dd>{{car.engine.type}}</dd>
+      <dd>{{moto.engine.type}}</dd>
       <dt>Gears</dt>
-      <dd>{{car.engine.gears}}</dd>
+      <dd>{{moto.engine.gears}}</dd>
       <dt>Transmission</dt>
-      <dd>{{car.engine.transmission}}</dd>
+      <dd>{{moto.engine.transmission}}</dd>
     </dl>
   </li>
   <li>
     <span>Comfort</span>
     <dl>
       <dt>Space</dt>
-      <dd>{{car.space.volume}}</dd>
+      <dd>{{moto.space.volume}}</dd>
     </dl>
   </li>
   <li>
     <span>Manufacter</span>
     <dl>
       <dt>Name</dt>
-      <dd>{{car.manufacter.name}}</dd>
+      <dd>{{moto.manufacter.name}}</dd>
       <dt>Country</dt>
-      <dd>{{car.manufacter.country}}</dd>
+      <dd>{{moto.manufacter.country}}</dd>
     </dl>
   </li>
   <li>
     <span>Size and Weight</span>
     <dl>
       <dt>Dimensions</dt>
-      <dd ng-repeat="dim in car.sizeAndWeight.dimensions">{{dim}}</dd>
+      <dd ng-repeat="dim in moto.sizeAndWeight.dimensions">{{dim}}</dd>
       <dt>Weight</dt>
-      <dd>{{car.sizeAndWeight.weight}}</dd>
+      <dd>{{moto.sizeAndWeight.weight}}</dd>
     </dl>
   </li>
 </ul>

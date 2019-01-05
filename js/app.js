@@ -14,15 +14,15 @@ var motoApp = angular.module('motoApp', [
 motoApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/cars', {
+      when('/motos', {
         templateUrl: 'partials/moto-list.html',
         controller: 'MotoListCtrl'
       }).
-      when('/cars/:motoId', {
+      when('/motos/:motoId', {
         templateUrl: 'partials/moto-detail.html',
         controller: 'MotoDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/cars'
+        redirectTo: '/motos'
       });
   }]);
